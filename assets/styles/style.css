@@ -1,14 +1,4 @@
 @font-face {
-    font-family: "PressStart2P";
-    src: url(../images/fonts/PressStart2P.ttf) format("truetype");
-}
-
-/*@font-face {
-    font-family: "finalf";
-    src: url(../images/fonts/finalf.ttf) format("truetype");
-}*/
-
-@font-face {
     font-family: "main-font";
     src: url(../images/fonts/blrrpix.ttf) format("truetype");
 }
@@ -33,9 +23,9 @@ nav {
 }
 
 header {
-  /* display: flex; */
+
 	color: white;
-	height: 70vh;
+	height: 70%;
 	width: 100%;
 	margin: 0;
 	background-image: url("../images/dnbgposterized.png");
@@ -45,18 +35,40 @@ header {
 }
 
 #name {
+  display: flex;
+  justify-content: flex-start;
 	color: #ffab00;
 	padding-left: 25px;
 	font-size: 120px;
 	text-shadow: 1px 1px 1px rgba(33, 33, 33, 0.9);
 	/*margin-bottom: 0px;
 	margin-top: 0px;*/
+  margin-right: 0;
 	width: 50%;
+}
 
+#title {
+  display: flex;
+  justify-content: flex-start;
 
+  align-items: baseline;
+
+  font-size: 60px;
+  color: #009688;
+  padding: 25px;
+  /*width: 50%;*/
+  /* padding-left: 25px; */
+  /*margin-top: 180px;*/
+  /* bottom: 0; */
+
+  /* float: left;
+  text-align: left;
+  clear: both; */
 }
 
 #contact {
+
+
 	width: 100%;
 	text-align: center;
 	margin: auto;
@@ -87,8 +99,12 @@ header {
 
 
 #menu {
-	float: right;
-	display: inline;
+	/* float: right; */
+	display: flex;
+  justify-content: flex-start;
+  flex-direction: row-reverse;
+
+  align-items: baseline;
 	/*width: 50%;*/
 	clear: both;
 	/*-webkit-padding-start: 0px;*/
@@ -113,10 +129,14 @@ header {
 }
 
 .header-contact {
-	float: right;
-	margin-top: -130px;
-	text-align: right;
-	list-style: none;
+  display: flex;
+  justify-content: Center;
+  align-items: flex-start;
+  flex-direction: column;
+  list-style: none;
+	/* float: right; */
+	/* margin-top: -130px;
+	text-align: right; */
 
 }
 
@@ -155,19 +175,6 @@ header {
 	color: #009688;
 }
 
-.title {
-	font-size: 60px;
-	color: #009688;
-	/*padding: 25px;*/
-	/*width: 50%;*/
-	padding-left: 25px;
-	/*margin-top: 180px;*/
-	bottom: 0;
-	float: left;
-	text-align: left;
-	clear: both;
-
-}
 
 .text {
 	color: white;
@@ -419,27 +426,6 @@ li {
 }
 
 
-
-
-.country {
-
-}
-
-.country-name {
-
-}
-
-.country-native {
-
-}
-
-.country-region {
-
-}
-
-.country-flag {
-
-}
 
 
 
