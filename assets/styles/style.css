@@ -14,6 +14,9 @@ a {
 }
 
 body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 	background-color: white;
   /* background-color: #009688; */
 	text-shadow: 2px 2px 1px rgba(0, 0, 0, .5);
@@ -226,32 +229,41 @@ header {
 
 }
 
+main {
+  flex: 1 0 auto;
+}
+
+
+
 #portfolio {
   background-color: #212121;
 }
 
 footer {
-	/*font-family: "PressStart2P";*/
-	height: 40px;
-	background-color: #212121;
-	color: #ffab00;
-	text-align: right;
-	/*line-height: 10px;*/
-	/*margin-top: 25px;*/
-	/*padding-bottom: 15px;*/
-	/*padding: 10px;*/
-	/*padding-top: 20px;*/
-	clear: both;
-	bottom: 0;
-	width: 100%;
-	position: fixed;
 
 }
-footer h6 {
-	margin-top: -10px;
-	font-size: 24px;
-	padding: 10px;
+
+div.footer-copyright.cr {
+    background-image: url("../images/section.png");
 }
+
+  /* footer {
+  	height: 40px;
+  	background-color: #212121;
+  	color: #ffab00;
+  	text-align: right;
+
+  	clear: both;
+  	bottom: 0;
+  	width: 100%;
+  	position: fixed;
+
+  }
+  footer h6 {
+  	margin-top: -10px;
+  	font-size: 24px;
+  	padding: 10px;
+  } */
 .contact-link {
 	color: white;
 	float: left;
