@@ -5,7 +5,7 @@
 
 * {
 	font-family: "main-font";
-  color: white;
+  color: #cfd8dc;
 }
 
 a {
@@ -17,7 +17,7 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  background-color: #1a237e;
+  background-color: #bcaaa4;
 	text-shadow: 2px 2px 1px rgba(0, 0, 0, .5);
   margin: 0;
 
@@ -27,13 +27,17 @@ h1 {
   margin: 0;
 }
 
+
+
 img {
-  margin: 0;
+  max-width: 100%;
+  max-height: 100vh;
+  margin: auto;
 }
 
 nav {
 	display: inline;
-	background-color: #1a237e;
+	/* background-color: #cfd8dc; */
 }
 
 header {
@@ -42,10 +46,11 @@ header {
 	height: 70%;
 	width: 100%;
 	margin: 0;
-	background-image: url("../images/dnbgposterized.png");
+	background-image: url("../images/b4.png");
 	background-size: cover;
+  background-repeat: no-repeat;
 
-	border-bottom: 5px solid #212121;
+	/* border-bottom: : 5px solid #212121; */
 }
 
 #name {
@@ -68,7 +73,7 @@ header {
   align-items: baseline;
 
   font-size: 60px;
-  color: #1a237e;
+  color: #cfd8dc;
   padding: 25px;
   /*width: 50%;*/
   /* padding-left: 25px; */
@@ -81,7 +86,7 @@ header {
 }
 
 #contact {
-  background-color: #1a237e;
+  background-color: #cfd8dc;
 
 
 	width: 100%;
@@ -162,7 +167,7 @@ header {
 }
 
 .header-contact a:hover {
-	color: #1a237e;
+	color: #cfd8dc;
 
 }
 
@@ -188,7 +193,7 @@ header {
 
 
 .menu-item:hover {
-	color: #1a237e;
+	color: #cfd8dc;
 }
 
 
@@ -201,7 +206,7 @@ header {
 }
 
 .current-page {
-  color: #1a237e;
+  color: #cfd8dc;
 
 }
 .lang-icons {
@@ -216,10 +221,12 @@ header {
 }
 
 .section-title {
+  /* display: flex; */
   background-image: url("../images/section.png");
   /* width: 100%; */
   padding-left: 15px;
   color: #ffab00;
+  font-size: 3em;
 }
 
 #about {
@@ -236,7 +243,7 @@ main {
 
 #portfolio {
   /* background-color: #212121; */
-  background-image: url("../images/bgpix.png");
+  /* background-image: url("../images/bgpix.png"); */
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -285,7 +292,7 @@ footer {
 	/*width: 40%;*/
 }
 .contact-link:hover {
-	color: #1a237e;
+	color: #cfd8dc;
 
 }
 #gallery {
@@ -330,7 +337,7 @@ footer {
 
 
 .description a, h4 {
-	color: #1a237e;
+	color: #cfd8dc;
 }
 
 .description p, h1 {
@@ -382,12 +389,11 @@ li {
 	background-image: url("../images/gallery/ecomm.png");
 }
 
-
+/*
 @media all and (max-width: 1040px){
 
 	#gallery div {
 		float: none;
-		/* margin: 10px auto; */
 	}
 }
 
@@ -399,7 +405,6 @@ li {
 
 	#title {
 		font-size: 32px;
-		/*margin-bottom: 40px;*/
 	}
 
 	#menu {
@@ -427,7 +432,6 @@ li {
 
 	.title {
 		font-size: 32px;
-		/*margin-top: -200px;*/
 	}
 
 	#menu {
@@ -437,7 +441,6 @@ li {
 
 	#menu li {
 		font-size: 24px;
-		/*margin-top: 90px;*/
 
 	}
 
@@ -455,21 +458,11 @@ li {
 		width: 100%;
 	}
 
-  	/*.img1 {
-  		background-image: url("../images/gallery/image-1-small.jpg");
-  	}
 
-  	.img2 {
-  		background-image: url("../images/gallery/image-2-small.jpg");
-  	}
-
-  	.img3 {
-  		background-image: url("../images/gallery/image-3-small.jpg");
-  	}*/
 
 }
 
-
+ */
 
 
 

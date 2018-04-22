@@ -19,11 +19,6 @@
 
 
 
-		<!-- <script type="text/javascript">
-		var elem = document.querySelector('.carousel');
-		var instance = M.Carousel.init(elem, options);
-		</script> -->
-
 
 	<title>Dave Noriega</title>
 	<link rel="icon"
@@ -31,8 +26,21 @@
       href="assets/images/D-icon.png">
 </head>
 <body>
-	<header class="">
-		<h1 id="name">Dave Noriega</h1>
+
+<div class="fixed-action-btn">
+  <a class="btn-floating btn-large red">
+    <i class="large material-icons">mode_edit</i>
+  </a>
+  <ul>
+    <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+    <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+    <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+    <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+  </ul>
+</div>
+
+	<header>
+		<h1 id="name" class="">Dave Noriega</h1>
 		<ul class="header-contact right">
 			<li><a href="mailto:dnori817@gmail.com">dnori817@gmail.com</a></li>
 			<li><a href="tel:+16313368656">(631)336-8656</a></li>
@@ -41,16 +49,24 @@
 		</ul>
 		<h1 id="title">Full Stack Web Developer</h1>
 
-		<ul id="menu">
+		<!-- <ul id="menu">
       <a href="assets/David-Noriega-Resume-2018.pdf" class="menu-item"><li>Resume</li></a>
       <a href="#portfolio" class="menu-item"><li>Portfolio</li></a>
 			<a href="index.html" class="menu-item current-page"><li>About</li></a>
-		</ul>
+		</ul> -->
 	</header>
 	<div class="section-title center">
-		<h2>Dave is a full stack web developer / programmer specializing in:</h2>
+		Dave is a full stack web developer / programmer specializing in:
 
 	</div>
+
+	<!-- <div class="parallax-container">
+		<div class="parallax">
+			<img src="assets/images/dnbg1.jpg">
+		</div>
+	</div> -->
+
+
 
 
 	<div class="carousel blue-grey">
@@ -103,17 +119,26 @@
 			</svg></a>
 	</div>
 
-    <div class="text container" id="about">
 
+			<div class="parallax-container">
+				<div class="parallax">
+					<img src="assets/images/dnbgposterized.png">
+				</div>
+			</div>
 
-
-		</div>
 		<div class="section-title center">
-			<h1>Portfolio</h1>
+			<h1 class="center-text">Portfolio</h1>
 
 		</div>
 
-		<main id="portfolio">
+
+		<!-- <div class="parallax-container">
+			<div class="parallax">
+				<img src="assets/images/bgpix.png">
+			</div>
+		</div> -->
+
+		<main id="portfolio blue-grey center">
 	    <div class="container center">
 				<div id="gallery" class="">
 					<div class="project">
@@ -131,7 +156,7 @@
 							<h6>
 								<a href="https://reactjs.org/" target="_blank">React,</a>
 								<a href="http://redux.js.org/" target="_blank">Redux,</a>
-								<a href="http://materializecss.com/" target="_blank">MaterializeCSS,</a>
+								<a href="http://materializecss.com/" target="_blank">Materialize,</a>
 								<a href="https://opentdb.com/"target="_blank">Open Trivia Database API,</a>
 								<a href="http://sass-lang.com/" target="_blank">SASS,</a>
 								<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">javaScript,</a>
@@ -187,7 +212,7 @@
 								<h6>
 									<a href="https://reactjs.org/" target="_blank">React,</a>
 									<a href="http://redux.js.org/" target="_blank">Redux,</a>
-									<a href="http://materializecss.com/" target="_blank">MaterializeCSS,</a>
+									<a href="http://materializecss.com/" target="_blank">Materialize,</a>
 									<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">javaScript,</a>,
 									<a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" target="_blank">HTML5,</a>
 									<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3" target="_blank">CSS3,</a>
@@ -234,47 +259,9 @@
 			</div>
 
 	  </main>
-		<!-- <div class="section-title">
-			<h1>Contact</h1>
 
-		</div> -->
-		<!-- <div id="contact">
-			<div class="">
 
-				<h4>Email:</h4>
-				<a href="mailto:dnori817@gmail.com" class="contact-page-link">dnori817@gmail.com</a>
-			</div>
-			<br>
-			<div class="">
 
-				<h4>Phone:</h4>
-				<a href="tel:+16313368656" class="contact-page-link">(631)336-8656</a>
-			</div>
-			<br>
-			<div class="">
-
-			<h4>Linkedin:</h4>
-				<a href="https://www.linkedin.com/in/dave-noriega" class="contact-page-link" target= "_blank">
-					linkedin.com/in/dave-noriega
-				</a>
-			</div>
-
-			<div class="">
-
-				<h4>Github:</h4>
-				<a href="https://github.com/dnori817" class="contact-page-link" target= "_blank">
-				github.com/dnori817
-				</a>
-			</div>
-		</div> -->
-
-	<!-- <footer>
-		<h6>
-			<a href="/contact" class="contact-link">Contact Info</a>
-			&copy; Dave Noriega 2018
-
-		</h6>
-	</footer> -->
 
   <footer class="page-footer blue-grey">
     <div class="container">
@@ -302,7 +289,7 @@
         </div>
       </div>
     </div>
-    <div class="footer-copyright cr">
+    <div class="footer-copyright">
       <div class="container center">
     		&copy; David Noriega 2018
       	<!-- <a class="grey-text text-lighten-4 right" href="#!">More Links</a> -->
