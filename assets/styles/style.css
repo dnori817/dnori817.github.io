@@ -1,3 +1,6 @@
+
+
+
 @font-face {
     font-family: "main-font";
     src: url(../images/fonts/blrrpix.ttf) format("truetype");
@@ -5,7 +8,7 @@
 
 * {
 	font-family: "main-font";
-  color: #cfd8dc;
+  color: white;
 }
 
 a {
@@ -17,7 +20,7 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  background-color: #bcaaa4;
+  background-color: #474b4f;
 	text-shadow: 2px 2px 1px rgba(0, 0, 0, .5);
   margin: 0;
 
@@ -37,31 +40,29 @@ img {
 
 nav {
 	display: inline;
-	/* background-color: #cfd8dc; */
 }
 
 header {
 
 	color: white;
-	height: 70%;
+	height: 70vh;
 	width: 100%;
 	margin: 0;
-	background-image: url("../images/b4.png");
+	background-image: url("../images/b10.png");
+  /* background-color: #303C6C; */
 	background-size: cover;
   background-repeat: no-repeat;
 
-	/* border-bottom: : 5px solid #212121; */
 }
 
 #name {
   display: flex;
   justify-content: flex-start;
-	color: #ffab00;
+	color: #86c232;
 	padding-left: 25px;
 	font-size: 120px;
 	text-shadow: 1px 1px 1px rgba(33, 33, 33, 0.9);
-	/*margin-bottom: 0px;
-	margin-top: 0px;*/
+
   margin-right: 0;
 	width: 50%;
 }
@@ -73,66 +74,12 @@ header {
   align-items: baseline;
 
   font-size: 60px;
-  color: #cfd8dc;
+  color: #61892f;
   padding: 25px;
-  /*width: 50%;*/
-  /* padding-left: 25px; */
-  /*margin-top: 180px;*/
-  /* bottom: 0; */
 
-  /* float: left;
-  text-align: left;
-  clear: both; */
-}
-
-#contact {
-  background-color: #cfd8dc;
-
-
-	width: 100%;
-	text-align: center;
-	margin: auto;
-	float: left;
-	padding-bottom: 40px;
-}
-
-#contact h4 {
-	color: #ffab00;
 
 }
 
-#contact div {
-	margin-bottom: 30px;
-
-}
-
-.contact-page-link {
-	text-decoration: none;
-	color: white;
-	font-size: 24px;
-}
-
-.contact-page-link:hover {
-	color: #212121;
-}
-
-
-
-#menu {
-	/* float: right; */
-	display: flex;
-  justify-content: flex-start;
-  flex-direction: row-reverse;
-
-  align-items: baseline;
-	/*width: 50%;*/
-	clear: both;
-	/*-webkit-padding-start: 0px;*/
-	/*padding: 10px;*/
-
-	/*margin-top: -50px;*/
-/*	margin-bottom: 10px;
-*/}
 
 .icon {
 	height: 100px;
@@ -163,11 +110,11 @@ header {
 
 .header-contact a {
 	text-decoration: none;
-	color: white;
+  color: #d1e8e2;
 }
 
 .header-contact a:hover {
-	color: #cfd8dc;
+  color: #5085a5;
 
 }
 
@@ -178,37 +125,16 @@ header {
 
 }
 
-.menu-item {
-	float: right;
-	/*display: inline;*/
-	font-size: 40px;
-	padding: 15px;
-	color: white;
-	text-decoration: none;
-	list-style: none;
-	/*margin-top: 20px;*/
-	text-align: right;
-}
-
-
-
-.menu-item:hover {
-	color: #cfd8dc;
-}
-
 
 .text {
-	color: white;
+	color: #AAABB8;
 	font-size: 30px;
 	padding-left: 10px;
 	padding-bottom: 10px;
 	margin-bottom: 40px;
 }
 
-.current-page {
-  color: #cfd8dc;
 
-}
 .lang-icons {
 	/*display: inline;*/
 
@@ -225,12 +151,11 @@ header {
   background-image: url("../images/section.png");
   /* width: 100%; */
   padding-left: 15px;
-  color: #ffab00;
+  color: ffcb9a;
   font-size: 3em;
 }
 
 #about {
-  /* background-color: #ffab00; */
   height: 20%;
 
 }
@@ -242,20 +167,23 @@ main {
 
 
 #portfolio {
-  /* background-color: #212121; */
-  /* background-image: url("../images/bgpix.png"); */
+
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .carousel {
-  /* background-color: #212121; */
+  display: flex;
+  align-items: flex-end;
 
+  /* background-color: #d9b08c; */
+  background-size: cover;
+  /* height: 50vh; */
 }
 
 
-footer {
-
+.page-footer{
+  background-color: #222629;
 }
 
 .footer-copyright {
@@ -263,25 +191,8 @@ footer {
 
 }
 
-  /* footer {
-  	height: 40px;
-  	background-color: #212121;
-  	color: #ffab00;
-  	text-align: right;
-
-  	clear: both;
-  	bottom: 0;
-  	width: 100%;
-  	position: fixed;
-
-  }
-  footer h6 {
-  	margin-top: -10px;
-  	font-size: 24px;
-  	padding: 10px;
-  } */
 .contact-link {
-	color: white;
+	color: #AAABB8;
 	float: left;
 	clear: both;
 	margin-top: 5px;
@@ -292,11 +203,10 @@ footer {
 	/*width: 40%;*/
 }
 .contact-link:hover {
-	color: #cfd8dc;
+	color: #AAABB8;
 
 }
 #gallery {
-	/* padding: 0px; */
 }
 
 #gallery div {
@@ -311,8 +221,8 @@ footer {
 
 .screenshot {
 	background-repeat: no-repeat;
-	border: 5px solid #212121;
-	border-radius: 2%;
+	border: 5px solid #2c3531;
+	border-radius: 1%;
 	background-size: cover;
 	display: block;
 	margin: 0;
@@ -337,25 +247,25 @@ footer {
 
 
 .description a, h4 {
-	color: #cfd8dc;
+	color: #AAABB8;
 }
 
 .description p, h1 {
-	color: #ffab00;
+	color: #29648A;
 
 }
 
 .description span {
-	color: #212121;
+	color: #2E1114;
 }
 
 .description a:hover {
-	color: #212121;
+	color: #2E1114;
 
 }
 
 .built {
-	color: #ffab00;
+	color: #64465C;
 }
 
 
