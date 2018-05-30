@@ -129,10 +129,6 @@ i {
 }
 
 
-.lang-icons {
-	/*display: inline;*/
-
-}
 
 .lang-icons svg {
 	float: left;
@@ -186,9 +182,7 @@ main {
   color: #c96567;
 }
 
-.page-footer {
 
-}
 
 .menu {
   background-color: #314455;
@@ -233,7 +227,7 @@ main {
 	background-size: cover;
 	display: block;
 	margin: auto;
-	width: 800px;
+	width: 1050px;
   height: 600px;
 	/* float: left; */
 }
@@ -257,10 +251,6 @@ main {
 	color: #97aabd;
 }
 
-.description p {
-	/* color: ; */
-
-}
 
 .description h5 {
 	color: #c96567;
@@ -310,10 +300,7 @@ li {
 
 @media all and (max-width: 1040px){
 
-	#portfolio div {
-		/* display: flex;
-		float: none; */
-	}
+
 
 	.screenshot {
 		height: 375px;
@@ -356,9 +343,7 @@ li {
 
 	}
 
-  #portfolio {
-    /* display: flex; */
-  }
+ 
 
 	#name {
 		font-size: 48px;
