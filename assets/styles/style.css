@@ -192,6 +192,14 @@ main {
   background-color: #644e5b;
 }
 
+.menu-icon {
+	background-color: #314455;
+}
+
+.menu-icon:hover {
+	background-color: #644e5b;
+}
+
 .footer-copyright {
   background-image: url("../images/section.png");
   font-size: 2em;
