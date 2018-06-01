@@ -182,6 +182,10 @@ main {
   color: #c96567;
 }
 
+.page-footer a:hover {
+	color: #644e5b;
+}
+
 
 
 .menu {
@@ -202,7 +206,7 @@ main {
 
 .footer-copyright {
   background-image: url("../images/section.png");
-  font-size: 2em;
+  font-size: 1.75em;
 
 }
 
